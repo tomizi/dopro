@@ -5,7 +5,7 @@ import numpy as np
 
 st.set_page_config(page_title='Sales Dashboard', page_icon = ':bar_chart:',
                   layout='centered')
-df = pd.read_excel('C:/Users/User/OneDrive - Uniwersytet Mikołaja Kopernika w Toruniu/Pulpit/DaneWydatki.xlsx')
+df = pd.read_excel('DaneWydatki.xlsx')
 
 
 st.sidebar.header('Please Filter Here:')
